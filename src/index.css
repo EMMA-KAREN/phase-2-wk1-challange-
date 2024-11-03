@@ -1,0 +1,38 @@
+/* App.css */
+
+/* Basic body styles */
+body {
+  background-color: #f8f9fa; /* Light gray background color for a clean look */
+  font-family: Arial, sans-serif; /* Font family for the entire application */
+}
+
+/* Background styling for the body with an image */
+body {
+  background-image: url('https://i.pinimg.com/236x/54/71/6a/54716a3848c6fbfb5770d4831803532b.jpg'); /* URL of the background image */
+  background-size: cover; /* Ensures the background image fills the screen */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  background-attachment: fixed; /* Keeps the background image fixed on scroll */
+  background-position: center; /* Centers the background image */
+}
+
+/* Styles for the hog list container */
+.hog-list {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background for readability */
+  padding: 20px; /* Padding around the content */
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted appearance */
+}
+
+/* Styles for individual hog tiles/cards */
+.card {
+  background-color: #862b2b; /* Background color for each hog tile */
+  border: 1px solid #542828; /* Border color for the tile */
+  border-radius: 8px; /* Rounded corners for the card */
+  padding: 15px; /* Padding inside the card */
+}
+
+/* Styles for card elements within the hog list */
+.hog-list .card {
+  width: 300px; /* Fixed width for each card */
+  flex-grow: 1; /* Allow the card to grow within flex containers */
+}
