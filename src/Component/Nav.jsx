@@ -7,7 +7,7 @@ function Nav() {
     // Navbar container with a styled header
     <div className="ui menu">
       <div className="header item"> 
-        <h1>Piggy Paradise</h1> 
+        <h1>Piggy Pork</h1> 
       </div>
     </div>
   );

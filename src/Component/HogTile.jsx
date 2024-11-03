@@ -6,8 +6,8 @@ function HogTile({ hog, toggleHideHog }) {
   const [showDetails, setShowDetails] = useState(false);
 
   return (
-    <div className="ui card mb-4 shadow-sm">
-      
+    <div className="ui card mb-4 shadow-sm  uiverse-tile">
+
       {/* Display hog image with set height and width to ensure consistency */}
       <div className="image">
         <img 

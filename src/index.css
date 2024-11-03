@@ -36,3 +36,19 @@ body {
   width: 300px; /* Fixed width for each card */
   flex-grow: 1; /* Allow the card to grow within flex containers */
 }
+
+.uiverse-tile {
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.uiverse-tile:hover {
+  transform: scale(1.05);
+}
+.ui.card h3 {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+.description p {
+  font-size: 24px;
+  color: #dbcece;
+}
