@@ -1,15 +1,15 @@
 // Import necessary libraries and components
 import React, { useState } from 'react';
-import porkerData from './PorkersData'; // Importing the hog data
-import Nav from './Component/Nav'; // Navigation component
-import HogList from './Component/HogList'; // Component to display list of hogs
-import HogForm from './Component/HogForm'; // Component for adding new hogs
-import Filters from './Component/Filters'; // Component for filtering and sorting hogs
+import hogsData from '../PorkersData'; // Importing the hog data with a new name
+import Nav from './Nav'; // Navigation component
+import HogList from './HogList'; // Component to display list of hogs
+import HogForm from './HogForm'; // Component for adding new hogs
+import Filters from './Filters'; // Component for filtering and sorting hogs
 
 // Define the main App component
 function App() {
   // State for all hogs, filter/sort options, and hidden hogs
-  const [hogs, setHogs] = useState(porkerData); // Initialize hogs with data from porkerData
+  const [hogs, setHogs] = useState(hogsData); // Initialize hogs with data from hogsData
   const [greasedOnly, setGreasedOnly] = useState(false); // State for filtering greased hogs
   const [sortBy, setSortBy] = useState(null); // State for sorting option (name or weight)
   const [hiddenHogs, setHiddenHogs] = useState([]); // State for tracking hidden hogs
